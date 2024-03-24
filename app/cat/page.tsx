@@ -31,7 +31,7 @@ export default function Page() {
       </Head>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" />
       <section>
-        <div className="hero-body has-background-white">
+        <div className="hero-body">
           <div className='center-test'>
             <div className="title">
               ランダムで<br />猫の画像を取得します<br />
