@@ -2,6 +2,7 @@
 import Head from 'next/head'
 import React, { useState } from 'react';
 import axios from 'axios';
+import "./style.css";
 
 // 1. ページの表示内容
 export default function Page() {
@@ -30,14 +31,13 @@ export default function Page() {
       </Head>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" />
       <section>
-        <div style={{ backgroundColor: 'white'}} className="hero-body">
-          <div className="container has-text-centered">
+        <div className="hero-body has-background-white">
+          <div className='center-test'>
             <div className="title">
               ランダムで<br />犬の画像を取得します<br />
               <button className={`button is-danger is-outlined is-large ${isLoading ? 'is-loading' : ''}`}
                 onClick={() => {fetchDogImage();}}
-                style={{ marginTop: '10px' }}
-              >
+                style={{ marginTop: '10px' }}>
                 画像取得
               </button>  
             </div>
