@@ -2,7 +2,7 @@
 import Head from 'next/head'
 import React, { useState } from 'react';
 import axios from 'axios';
-import "./style.css";
+import "../globals.css";
 
 // 1. ページの表示内容
 export default function Page() {

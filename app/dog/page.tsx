@@ -2,7 +2,7 @@
 import Head from 'next/head'
 import React, { useState } from 'react';
 import axios from 'axios';
-import "./style.css";
+import "../globals.css";
 
 // 1. ページの表示内容
 export default function Page() {
@@ -42,7 +42,7 @@ export default function Page() {
               </button>  
             </div>
             <div style={{ marginTop: '15px'}} id="result">
-                {imageUrl && <img src={imageUrl} alt="犬画像" />}
+                {imageUrl && <img className='item1' src={imageUrl} alt="犬画像" />}
             </div>
           </div>
         </div>
