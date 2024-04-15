@@ -19,6 +19,7 @@ export default function Page() {
         </div>
         <Calculator />
       </main>
+      差分
     </>
   )
 }
